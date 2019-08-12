@@ -1,0 +1,132 @@
+body{
+    background-image:url('../images/bg5.jpg');
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+#container{
+    width:1155px;
+    min-height:600px;
+    background-color:rgba(0, 0, 0, 0.836);
+    margin:auto;
+}
+.col50{
+    width:50%;
+    float:left;
+    border-right:3px solid #fff;
+    height:600px;
+    box-sizing: border-box;
+}
+.col50 h1{
+    text-decoration: underline;
+    margin-top:50px;
+    font-size:50px;
+    margin-left:30px;
+    text-align:center;
+    color:rgb(7, 103, 212);
+}
+.col50 h3{
+    margin-top:50px;
+    font-size:30px;
+    margin-left:30px;
+}
+.col50 h4{
+    font-size:20px;
+    font-weight: normal;
+    margin-left:30px;
+}
+.col50r{
+    width:50%;
+    float:left;
+    height:300px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+.col50r h1{
+    text-decoration: underline;
+    margin-top:50px;
+    font-size:50px;
+    text-align:center;
+    color:rgb(7, 103, 212);
+}
+.col50r ul{
+    list-style:none;
+}
+.col50r ul li{
+    padding:20px;
+}
+.col50r input{
+    margin-left:20px;
+}
+.col50r textarea{
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+    margin-left:20px;
+}
+#send{
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+    padding:10px;
+    width:300px;
+    margin-left:100px;
+    margin-top:30px;
+}
+#send:hover{
+    background-color:rgb(7, 103, 212);
+    transition:0.3s;
+}
+.col50r input{
+    background-color:black;
+    color:white;
+    border-radius:20px;
+    padding:5px;
+}
+@media screen and (max-width:480px){
+    body{
+        background-image:url('../images/bgx.jpg');
+        background-size:cover;
+    }
+    #container{
+        width:100%;
+    }
+    .col50 h1{
+        font-size:30px;
+        margin-top:70px;
+    }
+    .col50 h3{
+        font-size:25px;
+        margin-left:10px;
+    }
+    .col50 h4{
+        font-size:12px;
+        margin-left:10px;
+    }
+    .col50r h1{
+        font-size:30px;
+    }
+    .col50 ul{
+        margin:0;
+    }
+    .col50r ul li{
+        padding:0;
+        margin:0;
+        padding-top:10px;
+    }
+    .col50r{
+        text-align:left;
+    }
+    .col50r input{
+        width:70%;
+        display:block;
+    }
+    .col50r textarea{
+        width:120px;
+        display:block;
+    }
+    #send{
+        width:120px;
+        margin:50px 0px;
+    }
+}

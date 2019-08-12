@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div id="container">
+        <div class="col25">
+            <img src="images/logo.png">
+            <h1>Gametronix</h1>
+            <p>Already have an account?</p>
+            <a href="index.html">Go Back</a>
+        </div>
+        <form action="home.html" method="POST" enctype="multipart/form-data">
+            <div class="col75">
+                <h2>Sign Up for free!</h2>
+                <div class="col50">
+                    <input type="text"class="block" placeholder="First Name" required>
+                    <input type="text" class="block" placeholder="Last Name" required>
+                    <input type="password" class="block" placeholder="Password" required>
+                    <input type="password" class="block" placeholder="Confirm Password" required>
+                    <input type="radio" name="gender" value="M" class="check">Male
+                    <input type="radio" name="gender" value="F" class="check">Female<br>
+                    <input type="checkbox" value="1" class="check">I agree to the terms and conditions
+                </div>
+                <div class="col50">
+                        <input type="email" class="block" placeholder="Email" required>
+                        <input type="text" class="block" placeholder="Phone number" required>
+                        <select class="block">
+                            <option value="0">Please select your security question</option>
+                            <option value="1">What was your childhood nickname?</option>
+                            <option value="2">What town was your father born in?</option>
+                            <option value="3">What is the first name of your favourtie aunt?</option>
+                            <option value="4">What is the name of the first book that you read?</option>
+                            <option value="5">What is the last name of your favourite teacher?</option>
+                        </select>
+                        <input type="text" class="block" placeholder="Enter your own answer" required>
+                        <input type="submit" value="Register" class="register">
+                    </div>
+            </div>   
+        </form>
+    </div>
+</body>
+</html>

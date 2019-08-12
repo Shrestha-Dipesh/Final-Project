@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <div class="col25">
+                <img src="images/logo.png">
+                <h2>Gametronix</h2>
+            </div><!--col25 close-->
+            <div class="col75">
+                <ul class="nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                    <li><a>Games</a>
+                        <ul class="nav">
+                            <li><a href="pc.html">PC Games</a></li>
+                            <li><a href="mobile.html">Mobile Games</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="review.html">Reviews/FAQs</a></li>
+                    <li><input type="text" placeholder="Search" id="sbox"></li>
+                </ul>
+            </div><!--col75 close-->
+        </div><!--menu close-->
+        <div class="clr"></div>
+        <div class="col50">
+            <h1>Contact Us</h3>
+            <h3>Name</h1>
+            <h4>Dipesh Shrestha</h4>
+            <h3>Phone no.</h1>
+            <h4>+977 9843809482</h4>
+            <h3>Email</h1>
+            <h4>shrestha.dipesh1999@gmail.com</h4>
+        </div>
+        <div class="col50r">
+           <form action="mailto:shrestha.dipesh1999@gmail.com" method="POST" enctype="multipart/form-data">
+                <h1>Quick Message</h1>
+                <ul>
+                    <li>First Name<input type="text" required></li>
+                    <li>Last Name<input type="text" required></li>
+                    <li>Email<input type="email" required></li>
+                    <li>Phone no.<input type="text"></li>
+                    <li>Message<textarea cols=30 rows=3></textarea></li>
+                    <input type="submit" value="Send Message" id="send">
+                </ul>
+           </form>
+        </div>
+    </div><!--container closes-->
+</body>
+</html>

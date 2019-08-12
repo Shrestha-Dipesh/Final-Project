@@ -1,0 +1,59 @@
+body{
+    background-image:url('../images/bg7.jpg');
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-attachment:fixed;
+}
+#container{
+    width:1155px;
+    min-height:600px;
+    background-color:rgba(0, 0, 0, 0.836);
+    margin:auto;
+}
+h1{
+    margin-top:0;
+    padding-top:60px;
+    text-align:center;
+    font-size:50px;
+    color:rgb(7, 103, 212);
+    
+}
+table{
+    width:100%;
+    text-align:center;
+}
+.games{
+    width:250px;
+    height:200px;
+}
+.details{
+    font-size:30px;
+    width:250px;
+    padding:10px 0px;
+    margin-left:16px;
+    margin-bottom:30px;
+}
+.games:hover{
+    transform:scale(1.1);
+    transition:0.3s;
+}
+@media screen and (max-width:480px){
+    body{
+        background-image:url('../images/bgx.jpg');
+        background-size:cover;
+    }
+    #container{
+        width:100%;
+    }
+    td{
+        display:block;
+    }
+    .games{
+        width:90%;
+    }
+    .details{
+        margin-left:75px;
+    }
+
+}

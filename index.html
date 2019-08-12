@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Login</title>
+</head>
+<body>
+    <form name="login" method="POST" enctype="Multipart/form-data" onsubmit="return validate()">
+        <div id=container>
+            <img src="images/logo.png" id="logo">
+            <h1>Gametronix</h1>
+            <div id="errormsg"></div>
+            <input type="text" name="username" placeholder="Username/Email" class="block">
+            <input type="password" name="password" placeholder="Password" class="block">
+            <input type="checkbox" name="remember">Remember me 
+            <a href="#" id="password">Forgot Password?</a>
+            <input type="submit" name="submit" value="Login" class="block" id="login">
+            Don't have an account?
+            <a id="guest" href="home.html">Continue as guest</a><br>
+            <a id="sign" href="signup.html">Sign up!</a>
+            <script src="js/index.js"></script>
+        </div>
+    </form>
+</body>
+</html>
